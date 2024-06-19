@@ -1,0 +1,25 @@
+{
+  "name": "Quem Somos",
+  "path": "/quem-somos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Quem Somos"
+    },
+    {
+      "__resolveType": "site/sections/Content/ImageSection.tsx",
+      "title": "Conexões Culturais",
+      "description": "Na Conexões Culturais, acreditamos que a diversidade é uma riqueza a ser celebrada. Nossa loja nasceu do desejo de criar um espaço onde pessoas de todas as origens possam se conectar e compartilhar suas histórias e tradições. Utilizando a plataforma Deco, oferecemos uma experiência de compra interativa que vai além dos produtos – é uma jornada cultural. Aqui, cada produto conta uma história, e cada experiência é uma ponte que une pessoas através do respeito e da apreciação das diferenças.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10838/4ad4c835-9662-4f2f-8b33-0517e11481f9",
+      "placement": "left",
+      "cta": {
+        "href": "/",
+        "text": "Expanda sua mente"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
