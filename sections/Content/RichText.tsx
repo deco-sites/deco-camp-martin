@@ -15,7 +15,7 @@ export default function RichText(
     <div
       dangerouslySetInnerHTML={{ __html: text }}
       style={{
-        maxWidth: containerWidth ? containerWidth : 1440,
+        maxWidth: containerWidth ? containerWidth : 1152,
         margin: "0 auto",
       }}
     >
