@@ -1,0 +1,39 @@
+{
+  "name": "Culturas",
+  "path": "/culturas",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header/Header.tsx",
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10838/7bbddde6-c9da-41d3-84de-53970f690ab0",
+        "alt": "Conexões Culturais",
+        "width": 30,
+        "height": 30
+      },
+      "logoPosition": "center",
+      "alerts": [
+        "Promoção loja online - 10% OFF em todo site: Cupom DVRS10"
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Images/Carousel.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10838/2c70e111-6951-4ca2-bdfb-430b28f993f5",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10838/47788cdb-5f08-4996-9efe-aabfbfd3da4f",
+          "alt": "Conexoes"
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10838/c47ce6b1-c61f-4023-b10f-1b4400c908bb",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10838/c60b21a2-ddf3-480c-8eb1-5d59b1a354ab",
+          "alt": "cultura"
+        }
+      ],
+      "interval": 8
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
