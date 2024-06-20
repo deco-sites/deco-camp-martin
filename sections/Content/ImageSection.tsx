@@ -36,14 +36,16 @@ export default function ImageSection({
   placement,
   disableSpacing,
   cta,
-  lcp
+  lcp,
 }: Props) {
   return (
     <div class="w-full">
       <div
-        class={`flex lg:container lg:max-w-6xl lg:mx-auto mx-5 md:mx-10 ${PLACEMENT[placement]
-          } gap-12 md:gap-20 text-left items-center z-10 ${disableSpacing?.top ? "" : "pt-12 lg:pt-28"
-          } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
+        class={`flex lg:container lg:max-w-6xl lg:mx-auto mx-5 md:mx-10 ${
+          PLACEMENT[placement]
+        } gap-12 md:gap-20 text-left items-center z-10 ${
+          disableSpacing?.top ? "" : "pt-12 lg:pt-28"
+        } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
         <Image
           width={640}
